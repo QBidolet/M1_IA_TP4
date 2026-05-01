@@ -12,7 +12,7 @@ from sklearn.svm import LinearSVC
 from sklearn.ensemble import RandomForestClassifier
 
 # Charger le dataset SPAM
-df = pd.read_csv('spam.csv',sep="\t")
+df = pd.read_csv('../spam.csv',sep="\t")
 
 # encoder les labels (ham=0, spam=1)
 df['label'] = df['label'].map({'ham': 0, 'spam': 1})
