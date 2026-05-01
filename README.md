@@ -42,5 +42,5 @@ python spam.py
 cd "partie 4"
 flask --app app run --debug
 ```
-
-Interface sur <http://localhost:5000>.
+Attendre quelques minutes le temps que les modèles finissent de tourner.
+Ensuite l'interface est sur <http://localhost:5000>.
